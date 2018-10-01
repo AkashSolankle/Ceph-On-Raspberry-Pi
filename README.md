@@ -1,9 +1,9 @@
-# Ceph-On-Raspberry-Pi
+# Introduction about CEPH
 A Ceph cluster on Raspberry Pi is an awesome way to create a RADOS home storage solution (NAS) that is highly redundant and low power usage. It’s also a low cost way to get into Ceph, which may or may not be the future of storage (software defined storage definitely is as a whole). Ceph on ARM is an interesting idea in and of itself. 
 
 
-# Burn
-#### Flash OS images to SD cards & USB drives, safely and easily.
+
+####Burn Flash OS images to SD cards & USB drives, safely and easily.
 
 **https://github.com/resin-io/etcher.git**
 
@@ -12,7 +12,7 @@ A Ceph cluster on Raspberry Pi is an awesome way to create a RADOS home storage 
 Refer to the downloads page for the latest pre-made installers for all supported operating systems.
 # Debian and Ubuntu based Package Repository (GNU/Linux x86/x64)
 
-    ## Add Etcher debian repository:
+#Add Etcher debian repository:
 
     echo "deb https://dl.bintray.com/resin-io/debian stable etcher" | sudo tee /etc/apt/sources.list.d/etcher.list
 
@@ -33,7 +33,7 @@ sudo apt-get update
 
 # Redhat (RHEL) and Fedora based Package Repository (GNU/Linux x86/x64)
 
-    Add Etcher rpm repository:
+   ## Add Etcher rpm repository:
 
     sudo wget https://bintray.com/resin-io/redhat/rpm -O /etc/yum.repos.d/bintray-resin-io-redhat.repo
 
