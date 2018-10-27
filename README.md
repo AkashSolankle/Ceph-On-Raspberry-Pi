@@ -66,3 +66,10 @@ sudo eopkg it etcher
 # Uninstall
 
 +sudo eopkg rm etcher
+
+# Deploy the Configuration
+To deploy the configuration, create a directory for each daemon as follows:
+sudo mkdir /var/lib/ceph/osd/ceph-0
+sudo mkdir /var/lib/ceph/osd/ceph-1
+sudo mkdir /var/lib/ceph/mon/ceph-a
+sudo mkdir /var/lib/ceph/mds/ceph-a
